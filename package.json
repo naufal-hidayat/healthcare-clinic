@@ -1,0 +1,31 @@
+{
+  "name": "healthcare-plus",
+  "version": "1.0.0",
+  "description": "Healthcare Clinic Management System with AI Chatbot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.10.0",
+    "laravel-vite-plugin": "^1.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.19"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.0"
+  },
+  "main": "postcss.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
