@@ -29,6 +29,35 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Prerequisites
+
+PHP 8.2+
+
+Composer
+
+Node.js & NPM
+
+MySQL 8.0+
+
+Git
+
+OpenAI
+
+Claude.ai
+
+## Installation
+
+1. git clone https://github.com/yourusername/healthcare-plus.git
+2. cd healthcare-plus
+3. composer install
+4. npm install
+5. cp .env.example .env
+6. php artisan key:generate
+7. Edit file .env menggunakan database kamu yang baru buat
+8. php artisan migrate --seed
+9. php artisan serve
+
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
